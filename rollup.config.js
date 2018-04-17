@@ -14,7 +14,6 @@ export default {
   external: Object.keys(pkg.dependencies).concat([
     'path',
     'fs',
-    'os',
   ]),
   plugins: [
     babel({
