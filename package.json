@@ -5,9 +5,9 @@
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "scripts": {
-    "dev": "npm run std && rollup -c config/dev.js",
-    "watch": "npm run std && rollup -c config/dev.js -w",
-    "build": "npm run std && rollup -c config/prod.js",
+    "dev": "npm run std && rollup",
+    "watch": "npm run std && rollup -w",
+    "build": "npm run std && rollup",
     "std": "standard --verbose | snazzy"
   },
   "standard": {
